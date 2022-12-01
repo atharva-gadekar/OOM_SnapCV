@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import java.net.URL?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #EFE9E9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Personal">
+    <stylesheets>
+        <URL value="@filestyle.css" />
+    </stylesheets>
+    <children>
+        <Label alignment="CENTER" layoutX="105.0" layoutY="51.0" prefHeight="74.0" prefWidth="290.0" text="Personal Info" textFill="#5A4343">
+            <font>
+                <Font name="Comic Sans MS Bold" size="24.0" />
+            </font>
+        </Label>
+        <TextField fx:id="FirstName" layoutX="69.0" layoutY="166.0" prefHeight="41.0" prefWidth="176.0" promptText="FirstName" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="LastName" layoutX="268.0" layoutY="166.0" prefHeight="42.0" prefWidth="149.0" promptText="LastName" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="Phone" layoutX="69.0" layoutY="270.0" prefHeight="42.0" prefWidth="157.0" promptText="Phone" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="LinkedIn" layoutX="261.0" layoutY="270.0" prefHeight="42.0" prefWidth="150.0" promptText="Linkedin" styleClass="text-field" stylesheets="@filestyle.css" />
+        <TextField fx:id="EmailId" layoutX="69.0" layoutY="358.0" prefHeight="42.0" prefWidth="342.0" promptText="EmailId" styleClass="text-field" stylesheets="@filestyle.css" />
+        <Button fx:id="Save" layoutX="183.0" layoutY="480.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #CDB8B8;" text="Save " textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

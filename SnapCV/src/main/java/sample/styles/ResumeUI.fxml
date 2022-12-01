@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import java.net.URL?>
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="500.0" style="-fx-background-color: #EFE9E9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <stylesheets>
+      <URL value="@filestyle.css" />
+   </stylesheets>
+
+   <children>
+      <Button fx:id="PersonalInfo"  layoutX="100.0" layoutY="142.0" mnemonicParsing="false" onAction="#Personalinfo" prefHeight="50.0" prefWidth="300.0" text="Personal Information">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="Education"  layoutX="100.0" layoutY="202.0" mnemonicParsing="false" onAction="#Education" prefHeight="50.0" prefWidth="300.0" text="Education">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="Skills" layoutX="100.0" layoutY="262.0" mnemonicParsing="false" onAction="#Skill" prefHeight="50.0" prefWidth="300.0" text="Skills">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="WorkExp" layoutX="100.0" layoutY="322.0" mnemonicParsing="false" onAction="#WorkExp" prefHeight="50.0" prefWidth="300.0" text="Work Experience">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="Project" layoutX="100.0" layoutY="382.0" mnemonicParsing="false" onAction="#Project" prefHeight="50.0" prefWidth="300.0" text="Projects">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="Achievement" layoutX="100.0" layoutY="442.0" mnemonicParsing="false" onAction="#Achievement" prefHeight="50.0" prefWidth="300.0"  text="Achievements">
+      <font>
+         <Font size="18.0" />
+      </font>
+      </Button>
+
+      <Button fx:id="Help" layoutX="100.0" layoutY="736.0" mnemonicParsing="false" onAction="#Help" prefHeight="50.0" prefWidth="300.0"  text="More Help">
+      <font>
+         <Font size="18.0" />
+      </font>
+      </Button>
+
+      <Button fx:id="Choose" layoutX="100.0" layoutY="596.0" mnemonicParsing="false" onAction="#Choose" prefHeight="50.0" prefWidth="300.0"  text="Choose Template">
+      <font>
+         <Font size="18.0" />
+      </font>
+      </Button>
+
+      <Button fx:id="Gen" layoutX="145.0" layoutY="656.0" mnemonicParsing="false" onAction="#GenResume" prefHeight="50.0" prefWidth="210.0" style="-fx-background-color: #E4D7D7;" text="Generate Resume">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <Button fx:id="FileLocation" layoutX="295.0" layoutY="521.0" mnemonicParsing="false" onAction="#Browse" prefHeight="45.0" prefWidth="125.0" style="-fx-background-color: #CDB8B8;" text="Browse">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+      <TextField fx:id="fileloc" styleClass="none" layoutX="79.0" layoutY="521.0" prefHeight="45.0" prefWidth="200.0" />
+
+      <AnchorPane prefHeight="100.0" prefWidth="500.0" >
+         <children>
+            <Label alignment="CENTER" layoutX="105.0" layoutY="51.0" prefHeight="74.0" prefWidth="290.0" text="SNAP CV" textFill="#5A4343">
+               <font>
+                  <Font  size="54.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+
+<!--      <Label layoutX="202.0" layoutY="157.0" text="Personal Info" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="214.0" layoutY="216.0"  text="Education" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="232.0" layoutY="276.0" text="Skills" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="188.0" layoutY="338.0" text="Work Experience" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="221.0" layoutY="396.0" text="Projects" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="198.0" layoutY="456.0" text="Achievements" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+<!--      <Label layoutX="200.0" layoutY="750.0" text="More Help" >-->
+<!--         <font>-->
+<!--            <Font size="18.0" />-->
+<!--         </font>-->
+<!--      </Label>-->
+   </children>
+</AnchorPane>

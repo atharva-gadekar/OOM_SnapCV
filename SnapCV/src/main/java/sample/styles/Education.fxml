@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import java.net.URL?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #EFE9E9;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Education">
+   <stylesheets>
+      <URL value="@filestyle.css" />
+   </stylesheets>
+   <children>
+      <Label alignment="CENTER" layoutX="105.0" layoutY="51.0" prefHeight="74.0" prefWidth="290.0" text="Education" textFill="#5A4343">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PassYear" alignment="BOTTOM_CENTER" layoutX="66.0" layoutY="384.0" prefHeight="31.0" prefWidth="166.0" promptText="Pass Year" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Constantia" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Institute" alignment="BOTTOM_CENTER" layoutX="39.0" layoutY="200.0" prefHeight="51.0" prefWidth="414.0" promptText="Name of Institute" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Constantia" size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Course" alignment="BOTTOM_CENTER" layoutX="149.0" layoutY="309.0" prefHeight="31.0" prefWidth="194.0" promptText="Course" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Constantia" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Grade" alignment="BOTTOM_CENTER" layoutX="260.0" layoutY="384.0" prefHeight="31.0" prefWidth="166.0" promptText="Grade" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Constantia" size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Save" layoutX="180.0" layoutY="492.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #CDB8B8;" text="Save " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

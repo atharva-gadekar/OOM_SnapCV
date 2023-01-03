@@ -34,7 +34,7 @@ of templates and all they would have to do is to provide information for the fie
 ### How to setup
 1. Clone the repository through the following link.
 ```
-https://github.com/atharva-gadekar/SnapCV.git
+https://github.com/atharva-gadekar/OOM_SnapCV.git
 ```
 2. Download the Intellij Idea IDE using **[this](https://www.jetbrains.com/idea/download/#section=windows)** link.
 3. Next, Follow **[this](https://www.jetbrains.com/help/idea/javafx.html)** link for guidance.
